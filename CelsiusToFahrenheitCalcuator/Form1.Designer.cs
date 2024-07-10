@@ -62,6 +62,7 @@
 			button1.TabIndex = 2;
 			button1.Text = "Convert";
 			button1.UseVisualStyleBackColor = true;
+			button1.Click += button1_Click;
 			// 
 			// button2
 			// 
@@ -81,6 +82,7 @@
 			// 
 			// txtFahrenheit
 			// 
+			txtFahrenheit.Enabled = false;
 			txtFahrenheit.Location = new Point(179, 73);
 			txtFahrenheit.Name = "txtFahrenheit";
 			txtFahrenheit.Size = new Size(44, 23);
