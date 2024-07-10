@@ -79,6 +79,7 @@
 			txtCelsius.Name = "txtCelsius";
 			txtCelsius.Size = new Size(44, 23);
 			txtCelsius.TabIndex = 4;
+			txtCelsius.TextChanged += txtCelsius_TextChanged;
 			// 
 			// txtFahrenheit
 			// 

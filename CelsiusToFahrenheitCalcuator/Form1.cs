@@ -17,5 +17,10 @@ namespace CelsiusToFahrenheitCalcuator
 			// display calculation
 			txtFahrenheit.Text = f.ToString();
 		}
+
+		private void txtCelsius_TextChanged(object sender, EventArgs e)
+		{
+			txtFahrenheit.Clear();
+		}
 	}
 }
